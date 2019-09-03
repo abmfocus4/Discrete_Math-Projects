@@ -1,0 +1,41 @@
+                                            ECE 108 Project 1
+Implementing Sets
+
+Courtesy of Lab Instructor : Bernie Roehl, ECE Department, May 2018
+
+Goals: To practice and perfect the concepts learned in the first unit of ECE 108
+
+Introduction:
+
+Your goal in this project is to implement a Set class using C++. In this particular case we’ll be
+dealing with a Set of Tuples, where a Tuple is an ordered series of integers.
+
+Implementation:
+
+Below are functions the program attempts to implement:
+
+bool isEmpty() const; // Returns true if this is the empty set
+bool isError() const; // Returns true if this is the error set
+int cardinality() const;
+Set union_(const Set& s) const;
+Set intersection(const Set& s) const;
+Set difference(const Set& s) const;
+Set select(predicate* p) const;
+Set project(const int numItems, const int items[]) const;
+Set cartesian(const Set& s) const;
+Set operator()(const int item const;
+void operator=(const Set& s);
+Set();
+Set(const Set& s);
+Set(const int numElements, const int data[]);
+Set(const int numElements, const Tuple Tuples[]);
+~Set();
+std::ostream& operator<<(std::ostream& os, const Set& s);
+
+*Note that the union_ method has an underscore at the end of the name, since union is a
+keyword in C/C++.
+Also note that there are four constructors. The first creates an empty set, the second creates a
+copy of an existing set, the third creates a set from the given array of Tuples and the fourth
+creates a Set containing Tuples of size 1 with each integer in data[] being the single element
+of the corresponding Tuple.
+
