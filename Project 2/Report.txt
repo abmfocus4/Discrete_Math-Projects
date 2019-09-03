@@ -1,0 +1,27 @@
+Lab2:
+
+Question 1: 
+
+As the number of rolls increases from 10 to 100,000, we can see a more equal distribution of the probability of a number comming up. 
+Compared to when the dice is rolled 10 times to when the dice is rolled 100,000 times, the probability of any one of the 6 numbers to come up is more equally distributed in the latter(approx 1.67).
+
+
+Question 2:
+
+One would expect an almost equal split between the number of high rolls and the number of low rolls, hence our outcome is surprising. 
+
+The change of high rolls is the same as the chance of low rolls, so there are 2^(10,000) possibe permutations and 2 possibilities - high or low, i.e there are ( 10,000   0.5*10,000 ) over a total of 2^10000 ways. The result 8% is quite close to the result we have obtained.
+
+
+Question 3:
+The only combination the yields a 2 is 1-1, same for 12 (6-6), hence it's hard to land, whereas as the value of the other numbers increase, the combination of numbers that yield them also increases. As the number of combinations increases so does it's probability to land (the distribution looks like a hill with a peak in the middle).
+
+
+Question 4:
+
+Based on the distribution, it's safe to say that standing at a lower threshold from 10 to 14 reduces the player's chance of busting compared to 20 say. Since along with not busting, the player would also like to have more cards than the dealer, my most favored threshold would be 13. It has a low chance of busting and it's fairly enough to stay ahead of the dealer's total.
+
+
+Question 5:
+
+I was able to bet approx 52% of the time correctly. You can keep track and observe the cards being dealt to you which paint a decent picture of the value of the cards still left in the deck and hence your chances of busting. Also keeping in mind the before obtained distributions to stand at a reasonable threshold should help.
