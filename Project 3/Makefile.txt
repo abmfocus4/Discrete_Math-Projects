@@ -1,6 +1,0 @@
-dis : dis.cpp
-	g++ dis.cpp -o dis
-	
-run : 	dis
-	./dis <input.txt
-	

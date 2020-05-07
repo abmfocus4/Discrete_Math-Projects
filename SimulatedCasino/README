@@ -1,8 +1,6 @@
-                                      ECE 108 Project 2
-                              Probabilities -- a Visit to Vegas
-Courtesy of Bernie Roehl, ECE Department, May 2018
+                             # Probabilities -- a Visit to Vegas
 
-Introduction:
+## Introduction:
 
 The goal of this project is to become familiar with probabilities and the use of random number
 generators to simulate various systems. The examples I have used are based on a theoretical

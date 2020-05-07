@@ -1,11 +1,8 @@
-                                            ECE 108 Project 1
-Implementing Sets
+# Implementing Sets
 
-Courtesy of Lab Instructor : Bernie Roehl, ECE Department, May 2018
+## Goals: To practice and perfect the concepts learned in the first unit of ECE 108
 
-Goals: To practice and perfect the concepts learned in the first unit of ECE 108
-
-Introduction:
+## Introduction:
 
 Your goal in this project is to implement a Set class using C++. In this particular case we’ll be
 dealing with a Set of Tuples, where a Tuple is an ordered series of integers.

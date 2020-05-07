@@ -1,9 +1,6 @@
-                                                      ECE 108 Project 3
-                                              Social Networks and the Social Graph
-Courtesy of Bernie Roehl, ECE Department, May 2018
-Based on a design by M. Tripunitara and J. Thistle
+# Social Networks and the Social Graph
 
-Introduction
+## Introduction
 
 In this project I will be implementing a simple social network, and using it to identify dissimilar
 groups of users. 
